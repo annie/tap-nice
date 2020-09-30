@@ -1,0 +1,22 @@
+{
+  "name": "tap-nice",
+  "version": "1.0.0",
+  "description": "TAP but nice 👌",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/not-ok.js | node ./index.js"
+  },
+  "bin": {
+    "tap-nice": "./index.js"
+  },
+  "author": "Annie Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "tap-parser": "^10.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "tape": "^5.0.1"
+  }
+}
